@@ -19,10 +19,9 @@ public class TechfiosLoginTest {
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "http://techfios.com/test/billing/?ng=admin/");
 					
 			
-	Techfioslogin loginPage = PageFactory.initElements(driver, Techfioslogin.class);
-			
-				
+	Techfioslogin loginPage = PageFactory.initElements(driver, Techfioslogin.class);			
 	loginPage.login_Techfios();
+	
 	
 	driver.close();
 
